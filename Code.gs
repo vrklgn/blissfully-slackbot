@@ -1,10 +1,10 @@
 // TODO : Add responsible team to response
 // TODO : Only do the slack message building like... once
 
-// ADD YOUR SLACK APP TOKEN HERE
+// ADD YOUR SLACK VERIFICATION TOKEN HERE
 var slackToken = "";
 
-// ADD YOUR SLACK BEARER TOKEN HERE
+// ADD YOUR SLACK BEARER OAUTH TOKEN HERE
 var slackAPIToken = "Bearer xo<KEY>";
 
 // ADD YOUR SLACK DEBUG CHANNEL ID HERE
