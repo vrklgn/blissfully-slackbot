@@ -6,11 +6,10 @@ A Slackbot to query Blissfully for apps
 * Add Interactivity 
 * Add Slashcommand (e.g /appcheck or /whatapp)
 * Add Scopes
-Scopes: 
-chat:write
-chat:write.public
-commands
-* **TAKE NOTE OF THE FOLLOWING:**
+>chat:write
+>chat:write.public
+>commands
+**TAKE NOTE OF THE FOLLOWING:**
 * Verification Token
 * Bot User API Oauth Token
 
