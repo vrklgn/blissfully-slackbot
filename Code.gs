@@ -181,7 +181,7 @@ if (slackChannel == "directmessage"){
 
   var result = JSON.stringify({"Content-type": "application/json","blocks": [{"type": "header", "text": { "type": "plain_text", "text": appname}},
       {"type": "section", "text": {"type": "mrkdwn", "text": appdesc + "\n\n*URL:* "+ appurl}, "accessory": {"type": "image", "image_url": logo , "alt_text": appname}},
-      { "type": "divider"},{"type": "section", "text": {"type": "mrkdwn", "text":"*App Status:* "+ appstatus + "\n*System Owner:* " + appowner + "\n*Number of users:* " + appusers}},
+      { "type": "divider"},{"type": "section", "text": {"type": "mrkdwn", "text":"*App status:* "+ appstatus + "\n*System owner:* " + appowner + "\n*Number of users:* " + appusers}},
       {"type": "context","elements": [{"type": "mrkdwn","text": "Number of users is based on Google SSO & SAML login and may be inaccurate. \nData provided by <https://app.blissfully.com/|*Blissfully*>"}]},
       button]});
       
@@ -245,7 +245,7 @@ function sendToChannel(appData,slack_channel) {
       "channel": slack_channel,
       "blocks": [{"type": "header", "text": { "type": "plain_text", "text": appname}},
       {"type": "section", "text": {"type": "mrkdwn", "text": appdesc + "\n\n*URL:* "+ appurl}, "accessory": {"type": "image", "image_url": logo , "alt_text": appname}},
-      { "type": "divider"},{"type": "section", "text": {"type": "mrkdwn", "text":"*App Status:* "+ appstatus + "\n*System Owner:* " + appowner + "\n*Number of users:* " + appusers}},
+      { "type": "divider"},{"type": "section", "text": {"type": "mrkdwn", "text":"*App status:* "+ appstatus + "\n*System owner:* " + appowner + "\n*Number of users:* " + appusers}},
       {"type": "context","elements": [{"type": "mrkdwn","text": "Number of users is based on Google SSO & SAML login and may be inaccurate. \nData provided by <https://app.blissfully.com/|*Blissfully*>"}]},
       ]}) 
   };
