@@ -27,6 +27,7 @@ commands
 * Select type "Web App"
 * Execute as: Me
 * Who has access: Anyone
+* Deploy!
 
 ## Step 3. Finishing steps
 * Copy URL and add it to the Request URL of your Slash command
